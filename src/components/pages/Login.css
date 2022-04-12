@@ -1,0 +1,112 @@
+.login {
+  display: flex; 
+  justify-content: center;
+}
+
+.welcome {
+  margin-top: 3em;
+  border-radius: 1em;
+  border: .2em solid rgb(165, 165, 165);
+  text-align: center;
+  width: 80vw;
+  height: 40em;
+}
+
+.welcome-text {
+  margin-top: 1em;
+}
+
+.login_welcome {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.img-welcome {
+  margin-top: 2em;
+  width: 15em;
+}
+
+.login_right {
+  border-radius: .5em;
+  border: .1em solid gray;
+  height: 15em;
+  min-width: 10em;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  padding: .5em 1em;
+  margin-top: 1.5em;
+}
+
+.input {
+  border-radius: .2em;
+  border: .1em solid gray;
+  margin-bottom: .5em;
+}
+
+.alert-login {
+  color: red;
+  margin-bottom: .5em;
+}
+
+.btn {
+  border-radius: .2em;
+  border: .1em solid gray;
+}
+
+.alert-btn {
+  color: red;
+}
+
+.btn-google {
+  width: 13em;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-register {
+  margin-top: .5em;
+  width: 7em;
+}
+
+@media (min-width: 704px) {
+  .welcome {
+    width: 70vw;
+    height: 25em;
+  }
+
+  .login_welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* espacio entre img y login */
+  }
+
+  .img-welcome {
+    width: 15em;
+  }
+}
+
+@media (min-width: 1728px) {
+  .welcome {
+    width: 60vw;
+    font-size: 1.3em;
+  }
+
+
+  .input {
+    font-size: .8em;
+  }
+
+  .btn {
+    font-size: .8em;
+  }
+}
