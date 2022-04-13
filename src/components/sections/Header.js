@@ -1,4 +1,4 @@
-import './Header.css'
+import styles from'./Header.module.css'
 import { NavLink } from "react-router-dom";
 import { useAuth } from '../../context/authContext';
 
@@ -14,15 +14,15 @@ const Header = () => {
   }
 
   return (
-    <header className="main-header"> 
-      <nav className="menu">
+    <header className={styles.mainHeader}> 
+      <nav className={styles.menu}>
         <NavLink to="/">
             <img src="https://img.icons8.com/bubbles/50/000000/task.png" alt="logo" />
         </NavLink>
-        <ul className='menu-links'>
+        <ul>
           <li><NavLink to="/home">Home</NavLink></li>
           <li><NavLink to="/nosotros">Nosotros</NavLink></li>
-          <li><button className='btn-logOut' onClick={ loginOut }>Salir</button></li>
+          <li><button className={styles.btnLogOut} onClick={ loginOut }>SALIR</button></li>
         </ul>
       </nav>
   </header>

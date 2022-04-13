@@ -1,4 +1,4 @@
-import './Register.css'
+import styles from'./Register.module.css'
 import { useState } from 'react';
 import { useAuth } from '../../context/authContext';
 import { useNavigate } from 'react-router-dom';
@@ -34,22 +34,18 @@ const Register = ({openPop, onClose}) => {
   };
 
   return (
-    <section className="overlay" id="overlay">
-      <div className="popup">
-        <button className="btn-close-popup" id="btnClosePopup" onClick={onClose}>X</button>
+    <section className={styles.overlay} id="overlay">
+      <div className={styles.popup}>
+        <button className={styles.btnClosePopup} id="btnClosePopup" onClick={onClose}>X</button>
         <h3>Registrate </h3>{/* <p>es rápido y fácil</p> */}
-        <form className="form-registration" onSubmit={submit}>
-          <input id="userName" className="input" type="text" placeholder="Nombre: " />
-          <input id="userLastName" className="input" type="text" placeholder="Apellido: " />
-          <input id="inputEmailR" className="input" type="email" placeholder="Correo: " />
-          <input id="inputPassR" className="input" type="password" placeholder="Contraseña: " />
-          <input id="inputPassConf" className="input" type="password" placeholder="Confirmar Contraseña: " />
-          {loginError && <div className="alert-register" id="alertRegister">{loginError}</div>}
-          <div className="date-of-birth">
-            <label>Fecha de Creación: </label>
-            <input id="dateOfBirth" type="date" />
-          </div>
-          <button className="button btn-registration" id="btnRegistration">Registrate</button>
+        <form className={styles.formRegistration} onSubmit={submit}>
+          <input id="userName" className={styles.input} type="text" placeholder="Nombre: " />
+          <input id="userLastName" className={styles.input} type="text" placeholder="Apellido: " />
+          <input id="inputEmailR" className={styles.input} type="email" placeholder="Correo: " />
+          <input id="inputPassR" className={styles.input} type="password" placeholder="Contraseña: " />
+          <input id="inputPassConf" className={styles.input} type="password" placeholder="Confirmar Contraseña: " />
+          {loginError && <div className={styles.alertRegister} id="alertRegister">{loginError}</div>}
+          <button className={`${styles.btn} ${styles.btnRegistration}`} id="btnRegistration">Registrate</button>
         </form>
       </div>
     </section>

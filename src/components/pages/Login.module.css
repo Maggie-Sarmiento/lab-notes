@@ -12,11 +12,11 @@
   height: 40em;
 }
 
-.welcome-text {
+.welcomeText {
   margin-top: 1em;
 }
 
-.login_welcome {
+.loginWelcome {
   align-items: center;
   display: flex;
   flex-direction: column-reverse;
@@ -24,19 +24,19 @@
   margin-top: 2em;
 }
 
-.img-welcome {
+.imgWelcome {
   margin-top: 2em;
   width: 15em;
 }
 
-.login_right {
+.loginRight {
   border-radius: .5em;
   border: .1em solid gray;
   height: 15em;
   min-width: 10em;
 }
 
-.form-login {
+.formLogin {
   display: flex;
   flex-direction: column;
   padding: .5em 1em;
@@ -49,7 +49,7 @@
   margin-bottom: .5em;
 }
 
-.alert-login {
+.alertLogin {
   color: red;
   margin-bottom: .5em;
 }
@@ -59,11 +59,11 @@
   border: .1em solid gray;
 }
 
-.alert-btn {
+.alertBtn {
   color: red;
 }
 
-.btn-google {
+.btnGoogle {
   width: 13em;
 }
 
@@ -73,7 +73,7 @@
   align-items: center;
 }
 
-.btn-register {
+.btnRegister {
   margin-top: .5em;
   width: 7em;
 }
@@ -84,13 +84,13 @@
     height: 25em;
   }
 
-  .login_welcome {
+  .loginWelcome {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; /* espacio entre img y login */
   }
 
-  .img-welcome {
+  .imgWelcome {
     width: 15em;
   }
 }
