@@ -12,12 +12,12 @@
 .popup {
   background-color: #fff;
   border-radius: 1em;
-  height: 30em;
+  height: 25em;
   min-width: 90vw;
   position: relative;
 }
 
-.popup .btn-close-popup {
+.popup .btnClosePopup {
   /* display: block; */
   color: #0073b1;
   cursor: pointer;
@@ -30,7 +30,7 @@
   width: 1.7em;
 }
 
-.btn-close-popup:hover {
+.btnClosePopup:hover {
   color: #113246;
 }
 
@@ -46,7 +46,7 @@
   margin-top: 0;
 } */
 
-.form-registration {
+.formRegistration {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@
   /*margin-top: 1em;*/
 }
 
-.form-registration input {
+.formRegistration input {
   border: 0.1em solid gray;
   border-radius: 0.2em;
   height: 1.8em;
@@ -63,27 +63,21 @@
   width: 16em;
 }
 
-.date-of-birth {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.5em;
-}
-
-.date-of-birth label {
+.dateOfBirth label {
   color: #000;
   font-family: var(--fontTexts);
   font-size: 0.8em;
   font-weight: bold;
 }
 
-.date-of-birth input {
+.dateOfBirth input {
   background-color: rgba(155, 155, 155, 0.2);
   font-family: var(--fontTexts);
   font-size: 0.83em;
   margin-top: 0.5em;
 }
 
-.btn-registration {
+.btnRegistration {
   border-radius: 0.7em;
   border: 0.1em solid gray;
   cursor: pointer;
@@ -101,11 +95,11 @@
     min-width: 29em;
   }
 
-  .form-registration input {
+  .formRegistration input {
     font-size: .8em;
   }
 
-  .btn-registration {
+  .btnRegistration {
     font-size: .82em;
   }
 }
