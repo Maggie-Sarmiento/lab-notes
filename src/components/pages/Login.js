@@ -55,7 +55,7 @@ const Login = () => {
               { loginError && <div className={styles.alertLogin} id="alertLogin">{loginError}</div> }
               <button className={` ${styles.btn} ${styles.btnLogin}`} id="btnLogin">Iniciar Sesion</button>
             </form>
-              <button className={`${styles.btn} ${styles.btnGoogle}}`} id="btnGoogle" onClick={ sigInGoogle }>Google</button>
+              <button className={`${styles.btn} ${styles.btnGoogle}`} id="btnGoogle" onClick={ sigInGoogle }>Google</button>
               <div className={styles.alertAuth}></div>
               <div className={styles.registration}>
                 <span>¿No tienes cuenta?</span>

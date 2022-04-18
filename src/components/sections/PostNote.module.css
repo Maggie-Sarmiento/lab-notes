@@ -1,0 +1,28 @@
+.postNote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+  width: 20em;
+}
+
+.formSaveN {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTitle {
+  color: rgb(188, 22, 119);
+  font-weight: 600;
+}
+
+.textArea {
+  width: 20em;
+  height: 6em;
+  color: pink;
+}
+
+.btnSave {
+  display: flex;
+  justify-content: center;
+}

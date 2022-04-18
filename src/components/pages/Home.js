@@ -1,21 +1,17 @@
-import { useAuth } from "../../context/authContext";
+import styles from "./Home.module.css"
+import Header from "../sections/Header";
+import PostNote from "../sections/PostNote";
+import ContainerNotes from "../sections/ContainerNotes";
 
 const Home = () => {
 
-const { user } = useAuth()
-console.log(user);
-
   return (
-  <section className="home">
-    <div>
-      <form>
-        <textarea name="textA" id="textA" cols="30" rows="10" defaultValue='Hola' />
-          <button>Guardar</button>
-      </form>
-    </div>
+    <section className={styles.home}>
+    <Header />
+    <PostNote />
+    <ContainerNotes />
   </section>
   )
 }
-
 
 export default Home;
