@@ -46,7 +46,7 @@ const Register = ({openPop, onClose}) => {
           <input id="inputPassConf" className={styles.input} type="password" placeholder="Confirmar Contraseña: " />
           {loginError && <div className={styles.alertRegister} id="alertRegister">{loginError}</div>}
           <button className={`${styles.btn} ${styles.btnRegistration}`} id="btnRegistration">Registrate</button>
-        </form>
+1        </form>
       </div>
     </section>
   )
