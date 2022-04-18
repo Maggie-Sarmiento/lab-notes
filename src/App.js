@@ -11,7 +11,6 @@ import { AuthProvider } from './context/authContext';
 const App = () => (
   <Router>
     <AuthProvider>
-      <Header />
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/Home' element={ 

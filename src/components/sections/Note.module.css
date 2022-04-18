@@ -1,0 +1,35 @@
+.bodyNote {
+  background-color: pink;
+  text-align: center;
+}
+
+/* h4 {
+  background-color: rgb(255, 171, 185);
+} */
+
+h6 {
+  /* background-color: rgb(198, 131, 142); */
+  color: rgb(198, 131, 142);
+  margin-left: .8em;
+}
+
+.foot {
+  background-color: rgb(198, 131, 142);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.7em;
+}
+
+.btnsContainer {
+  margin-right: .5em;
+}
+
+.btn {
+  background-color: rgb(97, 187, 231);
+  border: .1em solid rgb(184, 136, 144);
+  border-radius: 1em;
+  color: #fff;
+  width: 1.7em;
+  height: 1.7em;
+}
