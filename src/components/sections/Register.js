@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from'./Register.module.css'
 import { useState } from 'react';
 import { useAuth } from '../../context/authContext';
