@@ -4,6 +4,7 @@ import { useState } from "react";
 import { doc, deleteDoc } from "firebase/firestore"
 import { db } from "../../firebase/firebaseConfig"
 import PopDelete from "./PopDelete";
+import BasicModal from "./Modal";
 
 const Note = ({id, title, text, date}) => {
   const [openPop, setOpenPop] = useState(false);
@@ -25,7 +26,8 @@ const Note = ({id, title, text, date}) => {
         <div className={styles.foot}>
             <h4>{title}</h4>
           <div className={styles.btnsContainer}>
-            <button className={`${styles.btn} ${styles.btnEdit}`} onClick={() => setOpenPop(true)}>🖉</button>
+            {/* <button className={`${styles.btn} ${styles.btnEdit}`} onClick={() => setOpenPop(true)}>🖉</button> */}
+            <BasicModal  type={'edit'} />
             <button className={`${styles.btn} ${styles.btnDelete}`} onClick={deleteNote}>🗑</button>
           </div>
         </div>
