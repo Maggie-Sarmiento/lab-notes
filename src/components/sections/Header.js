@@ -22,7 +22,7 @@ const Header = () => {
         <ul>
           <li><NavLink to="/home">Home</NavLink></li>
           <li><NavLink to="/nosotros">Nosotros</NavLink></li>
-          <li><button className={styles.btnLogOut} onClick={ loginOut }>SALIR</button></li>
+          <li><button className={styles.btnLogOut} onClick={ loginOut }>Salir</button></li>
         </ul>
       </nav>
   </header>

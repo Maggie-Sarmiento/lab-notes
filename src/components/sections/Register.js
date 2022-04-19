@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from'./Register.module.css'
 import { useState } from 'react';
 import { useAuth } from '../../context/authContext';
@@ -46,7 +47,7 @@ const Register = ({openPop, onClose}) => {
           <input id="inputPassConf" className={styles.input} type="password" placeholder="Confirmar Contraseña: " />
           {loginError && <div className={styles.alertRegister} id="alertRegister">{loginError}</div>}
           <button className={`${styles.btn} ${styles.btnRegistration}`} id="btnRegistration">Registrate</button>
-        </form>
+1        </form>
       </div>
     </section>
   )

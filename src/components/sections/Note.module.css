@@ -3,18 +3,17 @@
   text-align: center;
 }
 
-/* h4 {
-  background-color: rgb(255, 171, 185);
-} */
+h4 {
+  margin-left: .6em;
+}
 
 h6 {
   /* background-color: rgb(198, 131, 142); */
   color: rgb(198, 131, 142);
-  margin-left: .8em;
 }
 
 .foot {
-  background-color: rgb(198, 131, 142);
+  background-color: rgb(221, 149, 161);
   display: flex;
   justify-content: space-between;
   align-items: center;
