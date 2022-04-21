@@ -3,8 +3,12 @@
   text-align: center;
 }
 
+.bodyNote:hover {
+  box-shadow: .5em .5em .5em .1em rgb(122, 102, 106);
+}
+
 h4 {
-  margin-left: .6em;
+  margin-left: 1em;
 }
 
 h6 {
@@ -31,4 +35,9 @@ h6 {
   color: #fff;
   width: 1.7em;
   height: 1.7em;
+  cursor: pointer;
+}
+
+p {
+  margin: 1em;
 }

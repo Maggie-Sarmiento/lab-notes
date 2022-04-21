@@ -26,15 +26,14 @@ const Note = ({id, title, text, date}) => {
         <div className={styles.foot}>
             <h4>{title}</h4>
           <div className={styles.btnsContainer}>
-            {/* <button className={`${styles.btn} ${styles.btnEdit}`} onClick={() => setOpenPop(true)}>🖉</button> */}
-            <BasicModal  type={'edit'} />
+            <BasicModal  type={'edit'} id={id} title={title} text={text} />
             <button className={`${styles.btn} ${styles.btnDelete}`} onClick={deleteNote}>🗑</button>
+            {/* <button className={`${styles.btn} ${styles.btnEdit}`} onClick={() => setOpenPop(true)}>🖉</button> */}
           </div>
         </div>
         <p>{text}</p>
         <h6>{date}</h6>
       </div>
-      <PopDelete openPop={openPop} onClose={() => setOpenPop(false)} />
     </section>
   )
 }
