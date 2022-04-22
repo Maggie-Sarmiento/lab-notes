@@ -19,5 +19,9 @@
         "react"
     ],
     "rules": {
+      "react/react-in-jsx-scope" : "off",
+      "linebreak-style": ["error", "windows"],
+      "react/jsx-curly-brace-presence" : "off",
+      "no-undef": "off"
     }
 }
