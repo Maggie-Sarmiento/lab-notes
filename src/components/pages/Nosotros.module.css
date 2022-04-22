@@ -1,0 +1,18 @@
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgNosotros {
+ width: 30em;
+}
+
+.h2Nosotros {
+  margin-top: 1em;
+}
+
+.pNosotros {
+  margin-top: 1em;
+}

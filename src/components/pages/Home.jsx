@@ -1,14 +1,14 @@
 import styles from "./Home.module.css"
 import Header from "../sections/Header";
-import PostNote from "../sections/PostNote";
 import ContainerNotes from "../sections/ContainerNotes";
+import BasicModal from "../sections/Modal";
 
 const Home = () => {
 
   return (
     <section className={styles.home}>
     <Header />
-    <PostNote />
+    <BasicModal type={'create'} />
     <ContainerNotes />
   </section>
   )

@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from './components/sections/Header';
+// import Header from './components/sections/Header';
 import Home from './components/pages/Home'
 import Login from './components/pages/Login';
 import Nosotros from './components/pages/Nosotros';

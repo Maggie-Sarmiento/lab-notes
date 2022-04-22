@@ -1,0 +1,14 @@
+.containerModal {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(97, 187, 231);
+  border: .1em solid rgb(184, 136, 144);
+  border-radius: 1em;
+  color: #fff;
+  width: 1.7em;
+  height: 1.7em;
+}
