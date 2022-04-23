@@ -2,7 +2,7 @@
 import Header from '../sections/Header';
 import styles from './Nosotros.module.css';
 
-const Nosotros = () => {
+const Nosotros = () => (
   <>
     <Header />
     <section className={styles.nosotros}>
@@ -32,7 +32,7 @@ const Nosotros = () => {
 
       </p>
     </section>
-  </>;
-};
+  </>
+);
 
 export default Nosotros;
