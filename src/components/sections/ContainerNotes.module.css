@@ -1,4 +1,5 @@
 .containerNotes {
+  display: grid;
   grid-gap: 2em;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 1.5em;
