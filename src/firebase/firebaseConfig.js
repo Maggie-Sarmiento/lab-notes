@@ -8,12 +8,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // Configuración de firebase
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
-  appId: process.env.REACT_APP_FIREBASE_APPID,
+  apiKey: 'AIzaSyAU5WXMC0PofLdZZ-TXWQTTjUmrK0qztkM',
+  authDomain: 'lab-notes-dea0c.firebaseapp.com',
+  projectId: 'lab-notes-dea0c',
+  storageBucket: 'lab-notes-dea0c.appspot.com',
+  messagingSenderId: '342877300802',
+  appId: '1:342877300802:web:c640adec81ab14808565db',
 };
 
 // Initializando Firebase

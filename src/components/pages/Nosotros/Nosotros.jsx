@@ -1,5 +1,5 @@
 /* eslint-disable react/function-component-definition */
-import Header from '../sections/Header';
+import Header from '../../sections/Header/Header';
 import styles from './Nosotros.module.css';
 
 const Nosotros = () => (

@@ -48,7 +48,7 @@ const Login = () => {
           <div className={styles.loginLeft}>
             <img
               className={styles.imgWelcome}
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Paper-notes.svg/1024px-Paper-notes.svg.png"
+              src="https://svgshare.com/i/g_v.svg"
               alt="img-login"
             />
           </div>
@@ -63,7 +63,7 @@ const Login = () => {
             <div className={styles.alertAuth} />
             <div className={styles.registration}>
               <span>¿No tienes cuenta?</span>
-              <button type="button" className={`${styles.btn} ${styles.Register}`} onClick={() => setOpenPop(true)}>Registrate</button>
+              <button type="button" className={`${styles.btn} ${styles.btnRegister}`} onClick={() => setOpenPop(true)}>Registrate</button>
               { /* <a href="/" className="link-registration"
               id="linkRegistration">Registrate</a> */ }
             </div>

@@ -1,7 +1,8 @@
 .mainHeader {
   background-color: #7df7de;
-  width: 100vw;
   height: 3.5em;
+  margin-bottom: 1.5em;
+  width: 100vw;
 }
 
 .menu {
@@ -41,6 +42,10 @@ ul>li a{
 }
 
 @media (min-width: 704px) {
+  .mainHeader {
+    margin-bottom: 3em;
+  }
+
   .menu img {
     margin-left: 3em;
   }

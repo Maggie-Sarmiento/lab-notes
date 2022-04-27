@@ -1,8 +1,8 @@
 .containerNotes {
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 1.5em;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 2em;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -10,5 +10,26 @@
 @media (min-width: 368px) {
   .containerNotes {
     grid-template-columns: repeat(auto-fill, minmax(20em, 1fr ));
+    margin-top: 3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+}
+
+@media (min-width: 568px) {
+  .containerNotes {
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr ));
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+
+@media (min-width: 1180px) {
+  .containerNotes {
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr ));
+    margin-top: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
   }
 }

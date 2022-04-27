@@ -1,6 +1,11 @@
 .bodyNote {
   background-color: pink;
+  border-radius: .3em;
+  box-shadow: .5em .5em .5em .1em rgb(212, 172, 178);
+  height: 12em;
   text-align: center;
+  padding-bottom: .25em;
+  position: relative;
 }
 
 .bodyNote:hover {
@@ -14,10 +19,14 @@ h4 {
 h6 {
   /* background-color: rgb(198, 131, 142); */
   color: rgb(198, 131, 142);
+  position: absolute;
+  top: 89%;
+  left: 70%;
 }
 
 .foot {
   background-color: rgb(221, 149, 161);
+  border-radius: .2em .2em 0em 0em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +34,7 @@ h6 {
 }
 
 .btnsContainer {
+  display: flex;
   margin-right: .5em;
 }
 
@@ -41,3 +51,4 @@ h6 {
 p {
   margin: 1em;
 }
+

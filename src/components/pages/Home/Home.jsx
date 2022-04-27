@@ -1,7 +1,7 @@
 /* eslint-disable react/function-component-definition */
-import Header from '../sections/Header';
-import ContainerNotes from '../sections/ContainerNotes';
-import BasicModal from '../sections/Modal';
+import Header from '../../sections/Header/Header';
+import ContainerNotes from '../../sections/ContainerNotes';
+import BasicModal from '../../sections/Modal';
 import styles from './Home.module.css';
 
 const Home = () => (

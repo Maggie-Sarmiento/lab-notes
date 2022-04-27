@@ -5,14 +5,17 @@
 
 .welcome {
   margin-top: 3em;
+  background-color: rgba(246, 205, 233, 0.8);
   border-radius: 1em;
-  border: .2em solid rgb(165, 165, 165);
+  border: .2em solid #ddade2;
+  box-shadow: .2em .2em .5em .1em gray;
   text-align: center;
   width: 80vw;
   height: 40em;
 }
 
 .welcomeText {
+  color: #2766c5;
   margin-top: 1em;
 }
 
@@ -31,7 +34,8 @@
 
 .loginRight {
   border-radius: .5em;
-  border: .1em solid gray;
+  background-color: #FFFBE7;
+  border: .1em solid #cfcab3;
   height: 15em;
   min-width: 10em;
 }
@@ -44,8 +48,10 @@
 }
 
 .input {
+  height: 1.7em;
   border-radius: .2em;
   border: .1em solid gray;
+  color: #ddade2;
   margin-bottom: .5em;
 }
 
@@ -55,6 +61,7 @@
 }
 
 .btn {
+  height: 1.7em;
   border-radius: .2em;
   border: .1em solid gray;
 }
@@ -63,8 +70,19 @@
   color: red;
 }
 
+.btnLogin {
+  background-color: #61A0FF;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
 .btnGoogle {
-  width: 13em;
+  background-color: #F4B400;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  width: 12.5em;
 }
 
 .registration {
@@ -74,12 +92,17 @@
 }
 
 .btnRegister {
+  background-color: #61A0FF;
+  border: none;
+  color: #fff;
   margin-top: .5em;
-  width: 7em;
+  font-weight: 550;
+  width: 8em;
 }
 
 @media (min-width: 704px) {
   .welcome {
+    margin-top: 9em;
     width: 70vw;
     height: 25em;
   }

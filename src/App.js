@@ -4,9 +4,9 @@
 import './App.css';
 // import Header from './components/sections/Header';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/pages/Home';
+import Home from './components/pages/Home/Home';
 import Login from './components/pages/Login';
-import Nosotros from './components/pages/Nosotros';
+import Nosotros from './components/pages/Nosotros/Nosotros';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './context/authContext';
 

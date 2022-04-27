@@ -4,6 +4,7 @@
 import { doc, deleteDoc } from 'firebase/firestore';
 import { db } from '../../firebase/firebaseConfig';
 import BasicModal from './Modal';
+import AlertDialog from './ModalDelete';
 import styles from './Note.module.css';
 
 const Note = (
@@ -18,7 +19,6 @@ const Note = (
 
   const deleteNote = async () => {
     try {
-      const result = window.confirm('Seguro que deseas borrar esta nota?');
       if (result) {
         await deleteDoc(doc(db, 'notes', id));
       }
@@ -27,6 +27,8 @@ const Note = (
     }
   };
 
+  deleteNote();
+
   return (
     <section className={styles.note}>
       <div className={styles.bodyNote}>
@@ -34,7 +36,9 @@ const Note = (
           <h4>{title}</h4>
           <div className={styles.btnsContainer}>
             <BasicModal type={'edit'} id={id} title={title} text={text} />
-            <button type="button" className={`${styles.btn} ${styles.btnDelete}`} onClick={deleteNote}>🗑</button>
+            <AlertDialog id={id} />
+            {/* <button type="button"
+            className={`${styles.btn} ${styles.btnDelete}`} onClick={deleteNote}>🗑</button> */}
             {/* <button className={`${styles.btn} ${styles.btnEdit}`}
             onClick={() => setOpenPop(true)}>🖉</button> */}
           </div>
