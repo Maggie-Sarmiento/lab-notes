@@ -117,8 +117,11 @@ export default function BasicModal({ type, id, title, text }) {
   };
 
   return (
-    <div className={styles.containerModal}>
-      <Button onClick={handleOpen}>{ type === 'create' ? 'Crear nota' : '🖉' }</Button>
+    <div className={type === 'create' ? styles.containerModal : styles.btnEdit}>
+      {type === 'create'
+        ? <Button onClick={handleOpen}>Crear nota</Button>
+        : <button type="button" className={`${styles.btn} ${styles.btnEdit}`} onClick={handleOpen}>🖉</button>}
+      {/* <Button onClick={handleOpen}>{ type === 'create' ? 'Crear nota' : '🖉' }</Button> */}
       <Modal
         open={open}
         onClose={handleClose}

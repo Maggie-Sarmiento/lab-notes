@@ -1,7 +1,11 @@
 .containerModal {
-  margin-top: 2em;
   display: flex;
   justify-content: center;
+  background-image: url("https://i.pinimg.com/564x/9f/1d/2c/9f1d2cac66e380f97ab4ce05f05a4f93.jpg");
+  /* background-image: url("https://i.pinimg.com/564x/3f/18/31/3f18312635078199303dbe0c68e08bdf.jpg"); */
+  padding: .4em;
+  margin: 0 5em;
+  box-shadow: .1em .1em .1em .01em rgb(203, 203, 203);
 }
 
 .btn {
@@ -9,6 +13,24 @@
   border: .1em solid rgb(184, 136, 144);
   border-radius: 1em;
   color: #fff;
-  width: 1.7em;
   height: 1.7em;
+  width: 1.7em;
+}
+
+@media (min-width: 373px) {
+  .containerModal {
+    margin: 0 8em;
+  }
+}
+
+@media (min-width: 568px) {
+  .containerModal {
+    margin: 0 15em;
+  }
+}
+
+@media (min-width: 1180px) {
+  .containerModal {
+    margin: 0 38em;
+  }
 }

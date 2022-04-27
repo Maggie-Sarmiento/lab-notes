@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test App renders learn react link 1`] = `
+<section
+  className="login"
+>
+  <section
+    className="welcome"
+  >
+    <h2
+      className="welcomeText"
+    >
+      Bienvenido a Noted
+    </h2>
+    <div
+      className="loginWelcome"
+    >
+      <div
+        className="loginLeft"
+      >
+        <img
+          alt="img-login"
+          className="imgWelcome"
+          src="https://svgshare.com/i/g_v.svg"
+        />
+      </div>
+      <div
+        className="loginRight"
+      >
+        <form
+          className="formLogin"
+          onSubmit={[Function]}
+        >
+          <input
+            className="input"
+            id="inputEmail"
+            placeholder="Email"
+            required={true}
+            type="text"
+          />
+          <input
+            className="input"
+            id="inputPass"
+            placeholder="Contraseña"
+            required={true}
+            type="password"
+          />
+          <button
+            className=" btn btnLogin"
+            id="btnLogin"
+            type="button"
+          >
+            Iniciar Sesion
+          </button>
+        </form>
+        <button
+          className="btn btnGoogle"
+          id="btnGoogle"
+          onClick={[Function]}
+          type="button"
+        >
+          Google
+        </button>
+        <div
+          className="alertAuth"
+        />
+        <div
+          className="registration"
+        >
+          <span>
+            ¿No tienes cuenta?
+          </span>
+          <button
+            className="btn btnRegister"
+            onClick={[Function]}
+            type="button"
+          >
+            Registrate
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;
