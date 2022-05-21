@@ -48,7 +48,7 @@ exports[`test App renders learn react link 1`] = `
           <button
             className=" btn btnLogin"
             id="btnLogin"
-            type="button"
+            type="submit"
           >
             Iniciar Sesion
           </button>
