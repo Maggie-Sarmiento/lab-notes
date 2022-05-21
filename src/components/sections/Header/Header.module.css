@@ -1,4 +1,5 @@
 .mainHeader {
+  display: flex;
   background-color: #7df7de;
   height: 3.5em;
   margin-bottom: 1.5em;
@@ -9,9 +10,11 @@
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.menu img {
+.logo {
+  width: 3em;
   margin-left: 1.5em;
 }
 
@@ -46,28 +49,20 @@ ul>li a{
     margin-bottom: 3em;
   }
 
-  .menu img {
-    margin-left: 3em;
+  .logo {
+    width: 3.5em;
+    margin-left: 4em;
   }
-  
-  .menu ul {
-    margin-right: 3em;
-  }
-}
 
-@media (min-width: 704px) {
-  .menu img {
-    margin-left: 6em;
-  }
-  
   .menu ul {
     margin-right: 6em;
   }
 }
 
 @media (min-width: 1728px) {
-  .menu img {
-    margin-left: 10em;
+  .logo {
+    width: 4em;
+    margin-left: 6em;
   }
   
   .menu ul {

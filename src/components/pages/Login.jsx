@@ -57,7 +57,7 @@ const Login = () => {
               <input className={styles.input} id="inputEmail" type="text" placeholder="Email" required />
               <input className={styles.input} id="inputPass" type="password" placeholder="Contraseña" required />
               { loginError && <div className={styles.alertLogin} id="alertLogin">{loginError}</div> }
-              <button type="button" className={` ${styles.btn} ${styles.btnLogin}`} id="btnLogin">Iniciar Sesion</button>
+              <button type="submit" className={` ${styles.btn} ${styles.btnLogin}`} id="btnLogin">Iniciar Sesion</button>
             </form>
             <button type="button" className={`${styles.btn} ${styles.btnGoogle}`} id="btnGoogle" onClick={sigInGoogle}>Google</button>
             <div className={styles.alertAuth} />

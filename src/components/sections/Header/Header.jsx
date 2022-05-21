@@ -17,7 +17,8 @@ function Header() {
       <nav className={styles.menu}>
         <NavLink to="/">
           <img
-            src="https://img.icons8.com/bubbles/50/000000/task.png"
+            className={styles.logo}
+            src="https://svgshare.com/i/g_v.svg"
             alt="logo"
           />
         </NavLink>

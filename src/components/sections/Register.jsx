@@ -12,6 +12,7 @@ const Register = ({ openPop, onClose }) => {
   if (!openPop) return null;
 
   const submit = async (e) => {
+    console.log('test');
     e.preventDefault();
     const expEmail = /^\w+([.+-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,4})+$/;
     const expPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/;
@@ -48,7 +49,7 @@ const Register = ({ openPop, onClose }) => {
           <input id="inputPassR" className={styles.input} type="password" placeholder="Contraseña: " />
           <input id="inputPassConf" className={styles.input} type="password" placeholder="Confirmar Contraseña: " />
           {loginError && <div className={styles.alertRegister} id="alertRegister">{loginError}</div>}
-          <button type="button" className={`${styles.btn} ${styles.btnRegistration}`} id="btnRegistration">Registrate</button>
+          <button type="submit" className={`${styles.btn} ${styles.btnRegistration}`} id="btnRegistration">Registrate</button>
         </form>
       </div>
     </section>
